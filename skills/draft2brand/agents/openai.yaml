@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft2Brand"
+  short_description: "Turn a draft logo into a complete brand asset kit"
+  default_prompt: "Use $draft2brand with this draft image and my business brief to choose a palette and build an editable brand kit."

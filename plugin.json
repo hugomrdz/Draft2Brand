@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "draft2brand",
+  "version": "1.0.0",
+  "description": "Turn a draft logo and business brief into an editable, palette-driven brand asset kit.",
+  "author": {"name": "Hugo Mrdz"},
+  "repository": "https://github.com/hugomrdz/Draft2Brand",
+  "license": "MIT",
+  "extensions": {"com.openai": {"requires_local_executor": true}}
+}

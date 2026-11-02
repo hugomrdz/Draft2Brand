@@ -1,0 +1,1 @@
+{"name":"draft2brand-renderer","version":"1.0.0","private":true,"type":"module","engines":{"node":">=22"},"dependencies":{"sharp":"0.35.5"}}

@@ -1,0 +1,24 @@
+{
+  "brand": "Example Studio",
+  "slug": "example-studio",
+  "version": "v1",
+  "business": "Synthetic example for testing the exporter; not a client identity",
+  "status": "draft",
+  "selection": {"geometry": "synthetic fixture", "palette": "demonstration only"},
+  "source": "mark.example.svg",
+  "coreGroup": "symbol-core",
+  "colors": {"ink": "#172A32", "paper": "#F6F4EE", "primary": "#146B5B", "accent": "#E4AD4C", "support": "#F2D7A0"},
+  "colorRoles": {"ink": "Text and light-mode symbol", "paper": "Light surfaces and reversed symbol", "primary": "Primary light-mode accent", "accent": "Dark-mode accent and primary action", "support": "Supporting detail and action hover"},
+  "variants": [
+    {"id": "light", "name": "Light primary", "paint": {"ink":"ink","accent":"primary","accent-alt":"primary"}, "background":"paper", "profileBackground":"#FFFFFF"},
+    {"id": "dark", "name": "Dark primary", "paint": {"ink":"paper","accent":"accent","accent-alt":"accent"}, "background":"ink", "profileBackground":"#000000"},
+    {"id": "soft", "name": "Dark supporting", "paint": {"ink":"paper","accent":"support","accent-alt":"support"}, "background":"ink", "profileBackground":"#000000"},
+    {"id": "duo-dark", "name": "Two accents on dark", "paint": {"ink":"paper","accent":"support","accent-alt":"accent"}, "background":"ink", "profileBackground":"#000000"},
+    {"id": "duo-light", "name": "Two accents on light", "paint": {"ink":"ink","accent":"support","accent-alt":"accent"}, "background":"paper", "profileBackground":"#FFFFFF"},
+    {"id": "mono-dark", "name": "Dark monochrome", "paint": {"ink":"ink","accent":"ink","accent-alt":"ink"}, "background":"paper", "profileBackground":"#FFFFFF"},
+    {"id": "mono-light", "name": "Light monochrome", "paint": {"ink":"paper","accent":"paper","accent-alt":"paper"}, "background":"ink", "profileBackground":"#000000"}
+  ],
+  "actions": {"fill":"accent","hover":"support","active":"support","ink":"ink","focusOnLight":"ink","focusOnDark":"paper"},
+  "profileSizes": [1024,512,256,128,64],
+  "notes": ["Synthetic example only. Replace the mark, palette and company details for each client."]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120">
+  <g id="symbol-core" data-brand-role="ink" fill="#172A32">
+    <path d="M12 98 50 22 88 98H67L50 62 33 98Z"/>
+  </g>
+  <rect data-brand-role="accent" fill="#146B5B" x="97" y="63" width="24" height="35" rx="4"/>
+  <circle data-brand-role="accent-alt" fill="#E4AD4C" cx="130" cy="36" r="14"/>
+</svg>
